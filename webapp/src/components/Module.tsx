@@ -8,7 +8,7 @@ import {
   FaTrashAlt,
   FaTrashRestoreAlt,
 } from "react-icons/fa";
-import { customAlphabet, nanoid } from "nanoid";
+import { nanoid } from "nanoid";
 import { toast } from "react-toastify";
 import axiosInstance from "../lib/http-client";
 import { isUrlValid } from "../lib/strings";
